@@ -1,0 +1,38 @@
+/* Estilos comunes para todos los contenedores de medición */
+#temp, #humedad, #viento, #incendio {
+    display: flex;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+/* Estilos para los valores enteros */
+#temp-int, #humedad-int, #viento-int, #incendio-int {
+    font-size: 80px;
+}
+
+/* Estilos para las columnas de unidades */
+#temp-col, #humedad-col, #viento-col, #incendio-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+
+/* Estilos para las unidades */
+#temp-unit, #humedad-unit, #viento-unit, #incendio-unit {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* Estilos para los decimales */
+#temp-dec, #humedad-dec, #viento-dec, #incendio-dec {
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+/* Contenedor principal */
+#controls {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
